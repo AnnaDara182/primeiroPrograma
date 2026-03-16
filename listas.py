@@ -19,3 +19,23 @@ print('Lista após remover a última fruta: ', frutas)
 print('Número de frutas na lista: ', len(frutas))
 print('Fatiando a lista de frutas: ', frutas[2:5])
 print('Tem "kiwi" na lista? ', 'kiwi' in frutas)
+
+print('Lista original "numeros":', numeros)
+print('Soma dos numeros:', sum(numeros))
+print('Maior número:', max(numeros))
+print('Menor número:', min(numeros))
+
+numeros.reverse()
+print('Resersa:', numeros)
+
+numeros.sort()
+print('Ordenada crescente:', numeros)
+
+numeros.sort(reverse=True)
+print('Ordenada decrescente:', numeros)
+
+for fruta in frutas:
+    print('Fruta:', fruta)
+
+quadrados= [n * n for n in [1, 2, 3, 4, 5]]
+print('Quadrados:', quadrados)
